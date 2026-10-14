@@ -13,10 +13,14 @@ Resource: AI Risks and Trustworthiness - https://airc.nist.gov/airmf-resources/a
 Android’s runtime permission model restricts an app’s access to sensitive data and device features, such as location, the camera, and the microphone. For permissions classified as dangerous, the app must request the user’s approval at runtime, when the relevant feature requires access. Users can grant or deny the request, and the app should handle denial without assuming access is available. This model helps limit unnecessary access to personal information and device resources.
 Resource: Permissions on Android -https://developer.android.com/guide/topics/permissions/overview
 ## Networking
-
+DNS over HTTPS (DoH) sends DNS queries and responses over an encrypted HTTPS connection. It protects DNS queries from being easily read or modified by parties monitoring the network path between the user and the DoH resolver. However, it does not hide the user’s IP address from visited websites, prevent the DoH resolver from seeing queries, or independently guarantee the authenticity of DNS data. Therefore, DoH improves DNS privacy in transit but does not provide complete online anonymity or security.
+Resource: RFC 8484: DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484.html
 ## Cybersecurity
-
+Phishing-resistant authentication binds the authentication process to the legitimate website, preventing credentials from being reused on fake sites. Resistant methods include FIDO2/WebAuthn security keys, FIDO-based passkeys, and certificate-based authentication. Non-resistant methods include SMS or email codes, manually entered one-time passwords (OTPs), and push notifications, even with number matching. For a government single sign-on service, phishing-resistant MFA helps protect citizens’ accounts from credential theft and impersonation.
+Resource: Implementing Phishing-Resistant MFA - https://www.cisa.gov/sites/default/files/2023-01/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf
 ## Data
+Oman’s Personal Data Protection Law (Royal Decree 6/2022) regulates the collection and processing of personal data. An authority should obtain consent where required by law, protect data confidentiality, and apply appropriate safeguards against unauthorized access or disclosure. It must also respect individuals’ rights to request corrections, updates, or deletion of their data and comply with applicable personal data breach notification requirements. These measures help protect citizens’ privacy and support responsible data management.
+Resource: Personal Data Protection Law - https://prod.mtcit.gov.om/ITAPortal_AR/Pages/Page.aspx?NID=1914&PID=2101437
 ## Misconception in My Track
 
 ## Open Question
