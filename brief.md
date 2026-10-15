@@ -22,5 +22,7 @@ Resource: Implementing Phishing-Resistant MFA - https://www.cisa.gov/sites/defau
 Oman’s Personal Data Protection Law (Royal Decree 6/2022) regulates the collection and processing of personal data. An authority should obtain consent where required by law, protect data confidentiality, and apply appropriate safeguards against unauthorized access or disclosure. It must also respect individuals’ rights to request corrections, updates, or deletion of their data and comply with applicable personal data breach notification requirements. These measures help protect citizens’ privacy and support responsible data management.
 Resource: Personal Data Protection Law - https://prod.mtcit.gov.om/ITAPortal_AR/Pages/Page.aspx?NID=1914&PID=2101437
 ## Misconception in My Track
-
+A common misconception about DNS over HTTPS (DoH) is that it makes users completely anonymous online. In reality, DoH encrypts DNS queries while they travel between the client and the configured resolver, making them harder for network observers to read or modify. However, the DoH resolver can still see the queries it processes, and DoH does not hide all identifying information, such as the user’s IP address, from every party. Therefore, DoH improves DNS privacy in transit but does not guarantee complete online anonymity. 
+Evidence: RFC 8484, Sections 8.1 “On the Wire” and 8.2 “In the Server”. https://www.rfc-editor.org/rfc/rfc8484.html
 ## Open Question
+How can a government authority configure DNS over HTTPS to improve citizens DNS privacy while maintaining effective network security monitoring and protecting sensitive information?
